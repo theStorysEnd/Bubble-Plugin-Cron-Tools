@@ -1,0 +1,90 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 30,
+        "width": 30
+    },
+    "display": "create cronjob",
+    "edit_mode_image": "//s3.amazonaws.com/appforest_uf/f1522184650656x102982411859557040/blank_PNG.png",
+    "fields": {
+        "AAH": {
+            "caption": "Date",
+            "doc": "something",
+            "editor": "DynamicValue",
+            "name": "start_date",
+            "rank": 0,
+            "value": "date"
+        },
+        "AAN": {
+            "caption": "Repeat",
+            "doc": "something",
+            "editor": "DynamicValue",
+            "name": "repeat",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAe": {
+            "caption": "interval",
+            "editor": "DynamicValue",
+            "name": "interval",
+            "rank": 2,
+            "value": "number"
+        },
+        "AAf": {
+            "caption": "days_of_week",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "days_of_week",
+            "rank": 3,
+            "value": "text"
+        },
+        "AAg": {
+            "caption": "investment_due_date",
+            "editor": "DynamicValue",
+            "name": "end_date",
+            "optional": true,
+            "rank": 4,
+            "value": "date"
+        }
+    },
+    "icon": "ion-android-alarm-clock",
+    "states": {
+        "AAI": {
+            "caption": "cronexpression",
+            "doc": "something",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "cron_expression_repeat",
+            "value": "text"
+        },
+        "AAM": {
+            "caption": "future_dates",
+            "doc": "all dates",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "future_dates",
+            "value": "date"
+        },
+        "AAd": {
+            "caption": "cron_expression_start",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "cron_expression_start",
+            "value": "text"
+        },
+        "AAh": {
+            "caption": "date",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "date",
+            "value": "date"
+        }
+    }
+}

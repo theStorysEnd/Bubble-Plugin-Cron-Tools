@@ -1,0 +1,185 @@
+{
+    "auth": "none",
+    "calls": {
+        "AAq": {
+            "body": "",
+            "body_type": "json",
+            "get_headers": false,
+            "initialized": true,
+            "method": "post",
+            "name": "Get list of dates (complex)",
+            "params": {
+                "AAz": {
+                    "key": "interval",
+                    "optional": true,
+                    "private": true,
+                    "querystring": true,
+                    "value": "1"
+                },
+                "ABA": {
+                    "key": "start_date",
+                    "private": true,
+                    "querystring": true,
+                    "value": "04-01-2018"
+                },
+                "ABB": {
+                    "key": "end_date",
+                    "private": true,
+                    "querystring": true,
+                    "value": "10-01-2018"
+                },
+                "ABC": {
+                    "key": "days_week",
+                    "optional": true,
+                    "private": true,
+                    "querystring": true,
+                    "value": "null"
+                },
+                "ABD": {
+                    "key": "repeat",
+                    "private": true,
+                    "querystring": true,
+                    "value": "Weekly"
+                }
+            },
+            "publish_as": "data",
+            "rank": 0,
+            "ret_value": "api.1521985993120x407222733170540540.plugin_api.AAq",
+            "types": "{\"plugin_api.AAq\":{\"caption\":\"Get list of date\",\"fields\":{\"_p_dates\":{\"ret_value\":\"list.date\",\"caption\":\"dates\",\"path\":[\"dates\"]},\"_p_int\":{\"ret_value\":\"number\",\"caption\":\"int\",\"path\":[\"int\"]}}}}",
+            "url": "https://wt-4544816d117c1fa2c174af41c15ba599-0.sandbox.auth0-extend.com/get-list-dates-complex"
+        },
+        "ABE": {
+            "initialized": true,
+            "method": "post",
+            "name": "Get single CRON expression",
+            "params": {
+                "ABG": {
+                    "key": "start_date",
+                    "private": true,
+                    "querystring": true,
+                    "value": "06-01-2018"
+                }
+            },
+            "publish_as": "data",
+            "rank": 1,
+            "ret_value": "api.1521985993120x407222733170540540.plugin_api.ABE",
+            "types": "{\"plugin_api.ABE\":{\"caption\":\"Get single CRON expression\",\"fields\":{\"_p_cron_single\":{\"ret_value\":\"text\",\"caption\":\"cron_single\",\"path\":[\"cron_single\"]}}}}",
+            "url": "https://wt-4544816d117c1fa2c174af41c15ba599-0.sandbox.auth0-extend.com/create-cron-single"
+        },
+        "ABF": {
+            "get_headers": false,
+            "initialized": true,
+            "method": "post",
+            "name": "Get repeating CRON expression (old)",
+            "params": {
+                "ABH": {
+                    "key": "start_date",
+                    "private": true,
+                    "querystring": true,
+                    "value": "04-01-2018"
+                },
+                "ABI": {
+                    "key": "end_date",
+                    "private": true,
+                    "querystring": true,
+                    "value": "07-01-2018"
+                },
+                "ABJ": {
+                    "key": "interval",
+                    "optional": true,
+                    "private": true,
+                    "querystring": true,
+                    "value": "1"
+                },
+                "ABK": {
+                    "key": "days_week",
+                    "optional": true,
+                    "private": true,
+                    "querystring": true,
+                    "value": "null"
+                },
+                "ABL": {
+                    "key": "repeat",
+                    "private": true,
+                    "querystring": true,
+                    "value": "Weekly"
+                }
+            },
+            "publish_as": "data",
+            "rank": 2,
+            "ret_value": "api.1521985993120x407222733170540540.plugin_api.ABF",
+            "types": "{\"plugin_api.ABF\":{\"caption\":\"Get repeating CRON expression\",\"fields\":{\"_p_cron_repeat\":{\"ret_value\":\"text\",\"caption\":\"cron_repeat\",\"path\":[\"cron_repeat\"]}}}}",
+            "url": "https://wt-4544816d117c1fa2c174af41c15ba599-0.sandbox.auth0-extend.com/create-cron-repeat"
+        },
+        "ABM": {
+            "initialized": true,
+            "method": "post",
+            "name": "Get repeating CRON expression",
+            "params": {
+                "ABN": {
+                    "key": "start_date",
+                    "private": true,
+                    "querystring": true,
+                    "value": "04-01-2018"
+                },
+                "ABO": {
+                    "key": "end_date",
+                    "private": true,
+                    "querystring": true,
+                    "value": "07-01-2018"
+                },
+                "ABP": {
+                    "key": "interval",
+                    "optional": true,
+                    "private": true,
+                    "querystring": true,
+                    "value": "1"
+                },
+                "ABQ": {
+                    "key": "days_week",
+                    "optional": true,
+                    "private": true,
+                    "querystring": true,
+                    "value": "null"
+                },
+                "ABR": {
+                    "key": "repeat",
+                    "private": true,
+                    "querystring": true,
+                    "value": "Weekly"
+                }
+            },
+            "publish_as": "data",
+            "rank": 3,
+            "ret_value": "api.1521985993120x407222733170540540.plugin_api.ABM",
+            "types": "{\"plugin_api.ABM\":{\"caption\":\"Get repeating CRON expression\",\"fields\":{\"_p_cron_repeat\":{\"ret_value\":\"text\",\"caption\":\"cron_repeat\",\"path\":[\"cron_repeat\"]}}}}",
+            "url": "https://wt-4544816d117c1fa2c174af41c15ba599-0.sandbox.auth0-extend.com/create-cron-repeat"
+        },
+        "ABS": {
+            "body_type": "json",
+            "initialized": true,
+            "method": "post",
+            "name": "Get list of dates (simple)",
+            "params": {
+                "ABT": {
+                    "key": "min",
+                    "private": true,
+                    "querystring": true,
+                    "value": "05-13-2019"
+                },
+                "ABU": {
+                    "key": "max",
+                    "private": true,
+                    "querystring": true,
+                    "value": "05-20-2019"
+                }
+            },
+            "publish_as": "data",
+            "rank": 4,
+            "ret_value": "api.1521985993120x407222733170540540.plugin_api.ABS",
+            "types": "{\"plugin_api.ABS\":{\"caption\":\"Get list of dates (simple)\",\"fields\":{\"_p_dates\":{\"ret_value\":\"list.date\",\"caption\":\"dates\",\"path\":[\"dates\"]}}}}",
+            "url": "https://wt-4544816d117c1fa2c174af41c15ba599-0.sandbox.auth0-extend.com/get-list-dates-simple"
+        }
+    },
+    "human": "Scheduling"
+}

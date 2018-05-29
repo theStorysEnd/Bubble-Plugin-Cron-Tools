@@ -1,0 +1,47 @@
+{
+    "caption": "update_dates",
+    "doc": "something",
+    "fields": {
+        "AAj": {
+            "caption": "New start date",
+            "doc": "something",
+            "editor": "DynamicValue",
+            "name": "new_start_date",
+            "rank": 0,
+            "value": "date"
+        },
+        "AAk": {
+            "caption": "New end date",
+            "doc": "something",
+            "editor": "DynamicValue",
+            "name": "new_end_date",
+            "rank": 1,
+            "value": "date"
+        },
+        "AAl": {
+            "caption": "New interval",
+            "doc": "something",
+            "editor": "DynamicValue",
+            "name": "new_interval",
+            "rank": 2,
+            "value": "number"
+        },
+        "AAm": {
+            "caption": "New repeat",
+            "doc": "something",
+            "editor": "DynamicValue",
+            "name": "new_repeat",
+            "rank": 3,
+            "value": "text"
+        },
+        "AAn": {
+            "caption": "New day(s) of week",
+            "doc": "something",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "new_days_of_week",
+            "rank": 4,
+            "value": "text"
+        }
+    }
+}

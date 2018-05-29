@@ -1,0 +1,19 @@
+{
+    "assets": {
+        "AAG": {
+            "name": "cronbuilder",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1521987003439x990406999131664600/cron-builder.js"
+        },
+        "AAJ": {
+            "name": "prettycron",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1521990436367x272133045364171260/prettycron.js"
+        },
+        "AAK": {
+            "name": "later",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1521990552388x362972393864765760/later.min.js"
+        }
+    },
+    "dependencies": {
+        "use_jquery": true
+    }
+}

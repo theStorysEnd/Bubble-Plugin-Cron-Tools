@@ -1,0 +1,15 @@
+{
+    "category": "data (things)",
+    "display": "delete cron",
+    "fields": {
+        "AAL": {
+            "caption": "repeating task ID",
+            "default_val": "",
+            "doc": "Task ID",
+            "editor": "StaticText",
+            "name": "",
+            "rank": 0
+        }
+    },
+    "type": "client_side"
+}
